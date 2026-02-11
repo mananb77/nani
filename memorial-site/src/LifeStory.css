@@ -1,0 +1,235 @@
+/* Life Story Navigation */
+.ls-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: rgba(250, 248, 245, 0.95);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(180, 213, 224, 0.3);
+  box-shadow: 0 2px 20px rgba(44, 62, 90, 0.06);
+}
+
+.ls-nav-inner {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ls-nav-back {
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  color: var(--navy-light);
+  font-weight: 500;
+}
+
+.ls-nav-back:hover {
+  color: var(--gold);
+}
+
+.ls-nav-title {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--navy);
+}
+
+.ls-nav-title span {
+  font-family: var(--font-hindi);
+  color: var(--gold);
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+}
+
+/* Life Story Container */
+.ls {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Header */
+.ls-header {
+  text-align: center;
+  padding: 7rem 0 4rem;
+}
+
+.ls-title {
+  font-family: var(--font-heading);
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 0.25rem;
+}
+
+.ls-title-hindi {
+  font-family: var(--font-hindi);
+  font-size: 1.6rem;
+  color: var(--gold);
+  margin-bottom: 1rem;
+}
+
+.ls-subtitle {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--navy-light);
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.ls-years {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  color: var(--navy-light);
+  letter-spacing: 0.1em;
+}
+
+/* Chapters */
+.ls-chapter {
+  padding: 3rem 0;
+  border-bottom: 1px solid rgba(180, 213, 224, 0.2);
+}
+
+.ls-chapter:last-of-type {
+  border-bottom: none;
+}
+
+.ls-chapter-number {
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--sky-blue-deep);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.ls-chapter-title {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 0.25rem;
+}
+
+.ls-chapter-title-hindi {
+  font-family: var(--font-hindi);
+  font-size: 1.15rem;
+  color: var(--gold);
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.ls-para {
+  font-size: 1.05rem;
+  color: var(--navy-light);
+  line-height: 1.9;
+  margin-bottom: 1.25rem;
+}
+
+.ls-para:last-child {
+  margin-bottom: 0;
+}
+
+/* Epilogue */
+.ls-epilogue {
+  background: linear-gradient(180deg, transparent 0%, rgba(180, 213, 224, 0.08) 100%);
+  border-radius: 12px;
+  padding: 3rem 2rem;
+  margin-top: 1rem;
+}
+
+.ls-closing-quote {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--navy);
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: rgba(196, 163, 90, 0.08);
+  border-radius: 10px;
+  border-left: 3px solid var(--gold);
+}
+
+/* Footer */
+.ls-footer {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.ls-footer-dedication {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--navy);
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.ls-footer-hindi {
+  font-family: var(--font-hindi);
+  font-size: 1rem;
+  color: var(--gold);
+  margin-bottom: 2rem;
+  line-height: 1.8;
+}
+
+.ls-om {
+  font-family: var(--font-hindi);
+  font-size: 1.5rem;
+  color: var(--navy);
+  letter-spacing: 0.15em;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.ls-back-link {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: white;
+  border: 1px solid var(--gold);
+  border-radius: 8px;
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--navy);
+  transition: all 0.3s ease;
+}
+
+.ls-back-link:hover {
+  background: var(--gold);
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .ls-header {
+    padding: 5rem 0 2.5rem;
+  }
+
+  .ls-title {
+    font-size: 2rem;
+  }
+
+  .ls-chapter {
+    padding: 2rem 0;
+  }
+
+  .ls-chapter-title {
+    font-size: 1.4rem;
+  }
+
+  .ls-epilogue {
+    padding: 2rem 1rem;
+  }
+
+  .ls-para {
+    font-size: 1rem;
+  }
+}
