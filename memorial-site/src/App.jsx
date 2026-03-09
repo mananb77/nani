@@ -127,24 +127,26 @@ function Bio() {
 
         <p className="bio-text fade-in">
           Born on Janmashtami in Bikaner, 1940. The youngest and most pampered
-          child in a distinguished family of doctors and freedom fighters &mdash;
-          her family&rsquo;s photographs still hang in the Bikaner museum. She
-          defied convention to earn a Master&rsquo;s degree in Hindi &amp;
-          Sanskrit when women were discouraged from education. A state-level
-          field hockey player and table tennis champion who received coaching
-          from the legendary Dhyan Chand. She built a home in Bhopal that
-          became legendary for its warmth, beauty, and hospitality. For 81
-          years, she lived with purpose, creativity, and an unmatched
-          generosity of spirit.
+          child in a distinguished family of doctors and army fighters &mdash;
+          her family&rsquo;s photographs still hang in the Bikaner museum. A
+          princess who grew up with royal treatment, an ambassador car, and
+          the whole community&rsquo;s adoration. She defied convention to earn a
+          Master&rsquo;s degree in Hindi &amp; Sanskrit from an all-girls school
+          when women were discouraged from education. A state-level field hockey
+          player and table tennis champion who received coaching from the
+          legendary Dhyan Chand. She built a home in Bhopal that became legendary
+          for its warmth, beauty, and hospitality. For 81 years, she lived with
+          purpose, creativity, and an unmatched generosity of spirit.
         </p>
 
         <p className="bio-text bio-text-hindi fade-in">
           1940 में जन्माष्टमी के शुभ अवसर पर बीकानेर में जन्म। डॉक्टरों और
-          स्वतंत्रता सेनानियों के प्रतिष्ठित परिवार की सबसे छोटी और सबसे
-          लाडली संतान। उन्होंने हिन्दी और संस्कृत में स्नातकोत्तर उपाधि
-          प्राप्त की जब लड़कियों की शिक्षा को हतोत्साहित किया जाता था। राज्य
-          स्तरीय हॉकी खिलाड़ी और टेबल टेनिस चैंपियन। भोपाल में उन्होंने एक
-          ऐसा घर बनाया जो अपनी गर्मजोशी, सुंदरता और आतिथ्य के लिए प्रसिद्ध
+          सेना के योद्धाओं के प्रतिष्ठित परिवार की सबसे छोटी और सबसे
+          लाडली संतान — एक राजकुमारी जिन्हें शाही व्यवहार मिलता था।
+          उन्होंने लड़कियों के स्कूल से हिन्दी और संस्कृत में स्नातकोत्तर
+          उपाधि प्राप्त की जब लड़कियों की शिक्षा को हतोत्साहित किया जाता था।
+          राज्य स्तरीय हॉकी खिलाड़ी और टेबल टेनिस चैंपियन। भोपाल में उन्होंने
+          एक ऐसा घर बनाया जो अपनी गर्मजोशी, सुंदरता और आतिथ्य के लिए प्रसिद्ध
           हो गया। 81 वर्षों तक उन्होंने उद्देश्य, रचनात्मकता और अतुलनीय
           उदारता के साथ जीवन जिया।
         </p>
@@ -188,7 +190,7 @@ function FamilyTree() {
             <div className="ft-node">
               <span className="ft-name">Smt. Bhargava</span>
               <span className="ft-name-hindi">श्रीमती भार्गव</span>
-              <span className="ft-role">Mother (Freedom Fighter)</span>
+              <span className="ft-role">Mother</span>
             </div>
           </div>
 
@@ -197,6 +199,10 @@ function FamilyTree() {
           {/* Siblings row */}
           <p className="ft-sibling-label">Their Children</p>
           <div className="ft-siblings">
+            <div className="ft-sibling">
+              <span className="ft-name">Sister</span>
+              <span className="ft-name-hindi">बहन</span>
+            </div>
             <div className="ft-sibling">
               <span className="ft-name">Sister</span>
               <span className="ft-name-hindi">बहन</span>
@@ -553,14 +559,14 @@ function Timeline() {
     {
       years: '1940',
       city: 'Born on Janmashtami',
-      desc: 'September 7th, 1940 in Bikaner, Rajasthan. The youngest and most pampered child in a distinguished family of doctors and freedom fighters. Born on Lord Krishna\'s birthday — a name and spirit she would carry for a lifetime.',
-      hindi: '7 सितम्बर 1940, बीकानेर, राजस्थान। डॉक्टरों और स्वतंत्रता सेनानियों के प्रतिष्ठित परिवार की सबसे छोटी और सबसे लाडली संतान। भगवान कृष्ण के जन्मदिन पर जन्म।',
+      desc: 'September 7th, 1940 in Bikaner, Rajasthan. The youngest and most pampered child in a distinguished family of doctors and army fighters. Born on Lord Krishna\'s birthday — a name and spirit she would carry for a lifetime. She was treated like a princess — with royal treatment, an ambassador car, and people dropping off food for her family. She was embarrassed by the attention, but it reflected the respect her family commanded.',
+      hindi: '7 सितम्बर 1940, बीकानेर, राजस्थान। डॉक्टरों और सेना के योद्धाओं के प्रतिष्ठित परिवार की सबसे छोटी और सबसे लाडली संतान। भगवान कृष्ण के जन्मदिन पर जन्म। राजसी व्यवहार — एम्बेसडर कार, लोग खाना लेकर आते थे।',
     },
     {
       years: '1950s',
       city: 'Education Against the Odds',
-      desc: 'Attended an all-girls school in Bikaner and went on to earn a Master\'s degree in Hindi & Sanskrit — an extraordinary achievement at a time when girls were actively discouraged from pursuing education.',
-      hindi: 'बीकानेर में एक लड़कियों के स्कूल में पढ़ाई और हिन्दी व संस्कृत में स्नातकोत्तर उपाधि प्राप्त की — जब लड़कियों की शिक्षा को हतोत्साहित किया जाता था।',
+      desc: 'Attended a total girls school in Bikaner and went on to earn a Master\'s degree in Hindi & Sanskrit — an extraordinary achievement at a time when girls were actively discouraged from pursuing education. Her father Shankarlayal Bhargava, a doctor, ensured all his children received the best education.',
+      hindi: 'बीकानेर में लड़कियों के स्कूल में पढ़ाई और हिन्दी व संस्कृत में स्नातकोत्तर उपाधि प्राप्त की — जब लड़कियों की शिक्षा को हतोत्साहित किया जाता था। उनके पिता शंकरलाल भार्गव ने सभी बच्चों को सर्वोत्तम शिक्षा दिलाई।',
     },
     {
       years: '1950s–60s',
@@ -618,7 +624,7 @@ function Hospitality() {
     { name: 'Katthal ka Achaar', hindi: 'कटहल का अचार', desc: 'Jackfruit pickle — a specialty no one could replicate' },
     { name: 'Signature Ketchup', hindi: 'सिग्नेचर केचप', desc: 'Homemade ketchup that put store brands to shame' },
     { name: 'Paneer Paratha Roll', hindi: 'पनीर पराठा रोल', desc: 'Beloved by everyone, perfected over decades' },
-    { name: 'Cutlets & Samosas', hindi: 'कटलेट और समोसे', desc: 'Crispy, golden, and always in abundant supply' },
+    { name: 'Cutlets, Samosas & Breadrolls', hindi: 'कटलेट, समोसे और ब्रेडरोल', desc: 'Crispy, golden, and always in abundant supply' },
     { name: 'Tri-Color Sandwiches', hindi: 'तिरंगा सैंडविच', desc: 'With Kissan jam and Amul butter — a classic' },
     { name: 'Gulab Jamun', hindi: 'गुलाब जामुन', desc: 'The finest anyone had ever tasted — simply legendary' },
     { name: 'Aloo Paratha & Aamrus', hindi: 'आलू पराठा और आमरस', desc: 'Summer vacation magic — the dish every grandchild craved' },
@@ -631,13 +637,14 @@ function Hospitality() {
         <p className="section-title-hindi fade-in">आतिथ्य की कला</p>
 
         <p className="hospitality-intro fade-in">
-          Nani was the best hostess anyone knew. Her table always groaned under
+          Nani &mdash; known lovingly as &ldquo;Mummy&rdquo; by her daughters &mdash; was the
+          best hostess anyone knew. Her table always groaned under
           the weight of generous spreads. She threw spectacular parties that
-          left guests talking for weeks. She was a pioneer &mdash; among the
-          first to own a pressure cooker, with friends coming to her home to
-          learn how to use it. An early adopter of the solar cooker. Her
-          daughters&rsquo; birthday celebrations were the highlight of the
-          social calendar.
+          left guests talking for weeks &mdash; Anshu and Aparna&rsquo;s birthday
+          parties were the best, with the finest cakes and decorations. Her famous
+          chaat parties were legendary in the BHEL community. She was a pioneer &mdash;
+          among the first to own a pressure cooker, with friends coming to her home
+          to learn how to use it. An early adopter of the solar cooker.
         </p>
         <p className="hospitality-intro hospitality-intro-hindi fade-in">
           नानी सबसे अच्छी मेज़बान थीं। उनकी मेज़ हमेशा उदार भोजन से भरी
@@ -746,11 +753,11 @@ function Gallery() {
     { src: `${base}photos/young-nani-portrait.jpg`, alt: 'Young Krishna — vintage portrait from Bikaner', caption: 'Young Krishna, Bikaner' },
     { src: `${base}photos/nani-nana-garden.jpg`, alt: 'Nani and Nana together in the garden', caption: 'Nani & Nana' },
     { src: `${base}photos/family-of-four.jpg`, alt: 'The Bhargava family of four — Nana, Nani, Anshu and Bebu', caption: 'The Bhargava Family' },
-    { src: `${base}photos/nani-sewing.jpg`, alt: 'Nani at her sewing machine by the window', caption: 'The Seamstress' },
     { src: `${base}photos/mother-daughter.jpg`, alt: 'Beautiful mother-daughter embrace', caption: "A Mother\u2019s Love" },
-    { src: `${base}photos/family-card-game.jpg`, alt: 'Family playing cards together on the bed', caption: 'Masti Time' },
+    { src: `${base}photos/nani-sewing.jpg`, alt: 'Nani at her sewing machine by the window', caption: 'The Seamstress' },
     { src: `${base}photos/nani-nana-event.jpg`, alt: 'Nani and Nana at a celebration, Nani in green saree', caption: 'Golden Together' },
     { src: `${base}photos/wedding-blessings.jpg`, alt: 'Grandparents blessing the couple at wedding', caption: "Blessings at Ankita\u2019s Wedding" },
+    { src: `${base}photos/family-card-game.jpg`, alt: 'Family playing cards together on the bed', caption: 'Masti Time' },
     { src: `${base}photos/christmas-grandkids.jpg`, alt: 'Christmas celebration with grandchildren', caption: 'Christmas with Grandchildren' },
   ];
 
