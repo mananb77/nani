@@ -71,7 +71,7 @@ function Hero() {
 
         <h1 className="hero-name-hindi fade-in">कृष्णा भार्गव</h1>
         <p className="hero-name-english fade-in">Krishna Bhargava</p>
-        <p className="hero-years fade-in">1940 &ndash; 2021</p>
+        <p className="hero-years fade-in">September 7, 1940 &ndash; December 4, 2021</p>
         <p className="hero-subtitle fade-in">
           Creative, Welcoming &amp; Warm
         </p>
@@ -88,6 +88,17 @@ function Hero() {
         <div className="hero-links fade-in">
           <Link to="/lifestory" className="hero-link hero-link-primary">
             Her Life Story
+          </Link>
+          <a
+            href="https://docs.google.com/presentation/d/1klLHUEJiLTs2MTzlo0RI166incQJvLfB-ffUTGQsh4A/edit?slide=id.g7a42ca4f32_0_113#slide=id.g7a42ca4f32_0_113"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hero-link"
+          >
+            Life Story Slides
+          </a>
+          <Link to="/memories" className="hero-link">
+            Share a Memory
           </Link>
         </div>
 
